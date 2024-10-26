@@ -31,7 +31,7 @@ def plot_potentials(t_eval,
     save_file : bool
         フィギュアを保存するかどうか
     """
-    colors = ['tab:blue', 'tab:gray', 'tab:cyan', 'black']
+    colors = ['tab:orange', 'tab:gray', 'tab:cyan', 'black']
     styles = ['solid', 'dashed', 'dotted', 'dashdot']
 
     if isinstance(potentials, dict):
@@ -99,12 +99,12 @@ def plot_current_and_potential(t_eval,
     fig = plt.figure(figsize=(12, 4))
 
     plt.subplot(2, 1, 1)
-    plt.plot(t_eval, current)
+    plt.plot(t_eval, current, color='tab:orange')
     plt.ylim(-5, 70)
     plt.ylabel('電流')
 
     plt.subplot(2, 1, 2)
-    plt.plot(t_eval, potential)
+    plt.plot(t_eval, potential, color='tab:orange')
     plt.ylim(-100, 70)
     plt.ylabel('膜電位')
 
@@ -149,7 +149,7 @@ def plot_conductance(t_eval,
     """
     plt.figure(figsize=(12, 2))
     plt.plot(t_eval, cond_diff, label='dgdt (f)', color='black', linestyle='dashed')
-    plt.plot(t_eval, conductances, label='コンダクタンス (g)', color='tab:blue', linestyle='solid')
+    plt.plot(t_eval, conductances, label='コンダクタンス (g)', color='tab:orange', linestyle='solid')
     # plt.xlim(t_eval[0], t_eval[-1])
     plt.legend()
     plt.xlabel('時刻 [msec]')
@@ -404,7 +404,7 @@ def plot_network(architecture,
         df_tmp['pos_y_jitter'],
         s=size_neuron,
         c='white',
-        edgecolors='blue',
+        edgecolors='tab:orange',
         marker='^',
         linewidths=1.0,
         zorder=2,
@@ -417,7 +417,7 @@ def plot_network(architecture,
         df_tmp['pos_y_jitter'],
         s=size_neuron,
         c='white',
-        edgecolors='blue',
+        edgecolors='tab:orange',
         marker='o',
         linewidths=1.0,
         zorder=2,
@@ -429,8 +429,8 @@ def plot_network(architecture,
         df_tmp['pos_x_jitter'],
         df_tmp['pos_y_jitter'],
         s=size_neuron,
-        c='blue',
-        edgecolors='blue',
+        c='tab:orange',
+        edgecolors='tab:orange',
         marker='^',
         linewidths=1.0,
         zorder=3,
@@ -459,7 +459,7 @@ def plot_network(architecture,
             df_column['pos_y'][idx] - 0.14,
             '%d' % (int(degree)),
             size=8,
-            color='blue',
+            color='tab:orange',
             horizontalalignment='center',
             verticalalignment='center',  # {'baseline', 'bottom', 'center', 'center_baseline', 'top'}
             zorder=4,
@@ -493,7 +493,7 @@ def plot_weight(architecture,
         フィギュアを保存するかどうか
     """
     plt.figure(figsize=(7, 7))
-    plt.pcolor(architecture['weights'], cmap=plt.cm.Blues)
+    plt.pcolor(architecture['weights'], cmap=plt.cm.Oranges)
     plt.xlabel("シナプス前細胞の番号")
     plt.ylabel("シナプス後細胞の番号")
     if save_file:
