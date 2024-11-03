@@ -184,12 +184,11 @@ def calc_lif(t, potential, current_ext, last_spike):
         # 式(3-1)の第三式に対応
         potential_next = V_RESET
     elif potential >= V_THERESHOLD:
-        # 不応期ではなく，かつ発火閾値に達した場合は
-        # 活動電位に固定。式(3-1)の第二式に対応
+        # 不応期ではなく，かつ発火閾値に達した場合は活動電位に固定
+        # 式(3-1)の第二式に対応
         potential_next = V_ACT
     else:
-        # 不応期ではなく，かつ発火閾値に達しない場合は
-        # 微分方程式を用いた更新
+        # 不応期ではなく，かつ発火閾値に達しない場合は微分方程式を用いた更新
         # 式(3-1)の第一式や式(3-2)に対応
         potential_delta = DELTA_T * (1.0 / C_LIF) * (
             - G_MAX_REST * (potential - E_REST) + current_ext)
@@ -1004,11 +1003,8 @@ def differentiate_working_memory(t, y, **kwargs):
     set_exc = architecture['set_exc']
     set_inh = architecture['set_inh']
 
-    (f_ampa, g_ampa,
-     f_nmda, g_nmda,
-     f_gaba, g_gaba,
-     potentials, ) = np.split(
-        y, architecture['split_list'], axis=1)
+    (f_ampa, g_ampa, f_nmda, g_nmda, f_gaba, g_gaba, potentials) = \
+        np.split(y, architecture['split_list'], axis=1)
 
     # [E-a-i] シナプスの影響度eの計算
     # 式(3-3)に相当
@@ -1198,11 +1194,8 @@ def simulate_working_memory(t_eval,
             dysfuncs_gaba=dysfuncs_gaba,
             architecture=architecture,
         )
-        (f_nmda, g_nmda,
-         f_ampa, g_ampa,
-         f_gaba, g_gaba,
-         potentials) = np.split(
-            y, architecture['split_list'], axis=1)
+        (f_nmda, g_nmda, f_ampa, g_ampa, f_gaba, g_gaba, potentials) = \
+            np.split(y, architecture['split_list'], axis=1)
 
         # [E-b] 積分発火モデルによる更新
         refractory = (last_spikes < t) & (t <= last_spikes + T_REF)
