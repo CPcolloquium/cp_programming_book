@@ -11,9 +11,9 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/5_Reinforcement-learing-model.ipynb)
 
 ### 逆転学習課題
-- [逆転学習課題のデモ](https://cba-toolbox.github.io/volatile-probabilistic-reversal-learning-task/demo_volatile-probabilistic-reversal-learning.html) : jsPsychで作成した逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
+- [逆転学習課題のデモ](https://cba-toolbox.github.io/probabilistic-reversal-learning-task/demo_probabilistic-reversal-learning.html) : jsPsychで作成した逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
 
-- [逆転学習課題のCBATリポジトリ](https://github.com/cba-toolbox/volatile-probabilistic-reversal-learning-task)
+- [逆転学習課題のCBATリポジトリ](https://github.com/cba-toolbox/probabilistic-reversal-learning-task)
 
 ## ６章 ベイズ推論モデル
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model.ipynb)
@@ -24,9 +24,9 @@
 - [釣り人課題のCBATリポジトリ](https://github.com/cba-toolbox/fisherman-task)
 
 ### 変動性のある逆転学習課題
-- [変動性のある逆転学習課題のデモ](https://cba-toolbox.github.io/probabilistic-reversal-learning-task/demo_probabilistic-reversal-learning.html) : jsPsychで作成した変動性のある逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
+- [変動性のある逆転学習課題のデモ](https://cba-toolbox.github.io/volatile-probabilistic-reversal-learning-task/demo_volatile-probabilistic-reversal-learning.html) : jsPsychで作成した変動性のある逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
 
-- [変動性のある逆転学習課題のCBATリポジトリ](https://github.com/cba-toolbox/probabilistic-reversal-learning-task)
+- [変動性のある逆転学習課題のCBATリポジトリ](https://github.com/cba-toolbox/volatile-probabilistic-reversal-learning-task)
 
 
 
