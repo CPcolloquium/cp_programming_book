@@ -11,7 +11,7 @@
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/5_Reinforcement-learing-model.ipynb)
 
 ### 逆転学習課題
-- [逆転学習課題のデモ](https://cba-toolbox.github.io/probabilistic-reversal-learning-task/demo_probabilistic-reversal-learning.html) : jsPsychで作成した逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
+- [逆転学習課題のデモ](https://cba-toolbox.github.io/probabilistic-reversal-learning-task/demo_probabilistic-reversal-learning.html) : jsPsychで作成した逆転学習課題のデモです。このデモでは40試行で逆転があり、全80試行です。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
 
 - [逆転学習課題のCBATリポジトリ](https://github.com/cba-toolbox/probabilistic-reversal-learning-task)
 
