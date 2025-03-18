@@ -16,6 +16,7 @@
 - [逆転学習課題のCBATリポジトリ](https://github.com/cba-toolbox/probabilistic-reversal-learning-task)
 
 - 「逆転学習課題のデモ」データでパラメータ推定
+
 上記の「逆転学習課題のデモ」に取り組むと、最後にcsvファイルがダウンロードされます。このcsvファイルを使ってご自身のデータからパラメータ推定もできます。それにあたって、ダウンロードされたファイルを解析可能なフォーマットにするPRLpreprocessパッケージを作成しました。PRLpreprocessパッケージは、cmot4rパッケージ下にありますので、cmot4rパッケージをインストールすると入ります。以下のように、cmot4rパッケージをインストールしてから、` PRLpreprocess::PRL_preprocess_csv()`関数でデータの読み込み＆前処理を実行ください。あとは、本書で解説されている通りに作業をしていくとパラメータ推定ができます。なお、ご自身のR環境にremotesパッケージが入ってなければ`install.packages("remotes")`を実行してから利用ください。
 
 ``` r
