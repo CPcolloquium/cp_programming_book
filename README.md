@@ -27,17 +27,12 @@ data <- PRLpreprocess::PRL_preprocess_csv("data.csv")
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model.ipynb)
 
 ### 釣り人課題
-- [釣り人課題のデモ](https://cba-toolbox.github.io/fisherman-task/demo_fisherman-task.html) : ６章ではビーズ課題について説明しましたが、釣り人課題は全く同じ構造の課題です。釣り人課題は、jsPsychで作成しました。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
+- [釣り人課題のデモ](https://cba-toolbox.github.io/fisherman-task/demo_fisherman-task.html) : ６章ではビーズ課題について説明しましたが、釣り人課題は全く同じ構造の課題です。釣り人課題は、jsPsychで作成しました。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。なお、釣り人課題のCBATリポジトリは、[こちら](https://github.com/cba-toolbox/fisherman-task)です。
 
-- [釣り人課題のCBATリポジトリ](https://github.com/cba-toolbox/fisherman-task)
-
-- 釣り人課題のデータ読み込みと前処理用Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model/preprocess_fisherman_task_data.ipynb)
+- 釣り人課題のデータ読み込みと前処理用Colab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model/preprocess_fisherman_task_data.ipynb)：上の「釣り人課題のデモ」に取り組んだ際に出力されるcsvファイルを読み込んで前処理するためのColabです。
 
 
 ### 変動性のある逆転学習課題
-- [変動性のある逆転学習課題のデモ](https://cba-toolbox.github.io/volatile-probabilistic-reversal-learning-task/demo_volatile-probabilistic-reversal-learning.html) : jsPsychで作成した変動性のある逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
+- [変動性のある逆転学習課題のデモ](https://cba-toolbox.github.io/volatile-probabilistic-reversal-learning-task/demo_volatile-probabilistic-reversal-learning.html) : jsPsychで作成した変動性のある逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。なお、変動性のある逆転学習課題のCBATリポジトリは、[こちら](https://github.com/cba-toolbox/volatile-probabilistic-reversal-learning-task)
 
-- [変動性のある逆転学習課題のCBATリポジトリ](https://github.com/cba-toolbox/volatile-probabilistic-reversal-learning-task)
-
-
-
+- 変動性のある逆転学習課題のデータ読み込みと前処理用のColab [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model/preprocess_volatile_probabilistic_reversal_learning_task_data.ipynb)：上の「変動性のある逆転学習課題のデモ」に取り組んだ際に出力されるcsvファイルを読み込んで前処理するためのColabです。
