@@ -24,12 +24,15 @@ data <- PRLpreprocess::PRL_preprocess_csv("data.csv")
 ```
 
 ## ６章 ベイズ推論モデル
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model.ipynb)
+[![ベイズ推論モデルのColab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model.ipynb)
 
 ### 釣り人課題
 - [釣り人課題のデモ](https://cba-toolbox.github.io/fisherman-task/demo_fisherman-task.html) : ６章ではビーズ課題について説明しましたが、釣り人課題は全く同じ構造の課題です。釣り人課題は、jsPsychで作成しました。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
 
 - [釣り人課題のCBATリポジトリ](https://github.com/cba-toolbox/fisherman-task)
+
+- [![釣り人課題のデータ読み込みと前処理用Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/6_Bayesian-inference-model/preprocess_fisherman_task_data.ipynb)
+
 
 ### 変動性のある逆転学習課題
 - [変動性のある逆転学習課題のデモ](https://cba-toolbox.github.io/volatile-probabilistic-reversal-learning-task/demo_volatile-probabilistic-reversal-learning.html) : jsPsychで作成した変動性のある逆転学習課題のデモです。最後まで取り組むとcsvファイルがダウンロードされますので、パラメータ推定に使えます。
