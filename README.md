@@ -1,5 +1,10 @@
 # R/Pythonでできる計算論的精神医学
 
+## 正誤表
+[第１刷　正誤表](errata.md)
+
+
+
 ## ３章 生物物理学的モデル
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/CPcolloquium/cp_programming_book/blob/main/3_Biophysical-model/3_Biophysical-model.ipynb)
 
